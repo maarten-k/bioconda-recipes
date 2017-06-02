@@ -17,7 +17,7 @@ source:
 
 requirements:
   build:
-  - gcc  # [linux]  
+  - gcc >=4.9 # [linux]  
   - llvm # [osx]
   - cmake
   - boost {{CONDA_BOOST}}*
